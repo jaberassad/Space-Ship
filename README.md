@@ -1,7 +1,3 @@
-Here’s the updated README file to reflect the details of your project where you trained a spaceship to land correctly using Deep Q-learning in a Gym environment.
-
----
-
 # Lunar Lander Deep Q-Learning Project
 
 ## Overview
@@ -21,14 +17,7 @@ pip install numpy tensorflow gymnasium bayesian-optimization
 
 ## Running the Project
 
-### 1. Training the Agent
-To train the lunar lander agent using Deep Q-Learning, run the training script provided in `train_agent.py`. The agent is trained over a series of episodes and optimizes its behavior based on the reward it gets from the environment.
-
-```bash
-python train_agent.py
-```
-
-### 2. Testing the Agent
+###  Running the Agent
 After training, you can test the agent's performance by running the following command. The trained model will be loaded, and the agent will attempt to land the spaceship in a visual environment.
 
 ```bash
