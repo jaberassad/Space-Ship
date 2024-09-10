@@ -9,6 +9,8 @@ Make sure you have the following dependencies installed before running the proje
 - `tensorflow`
 - `gymnasium`
 - `bayes_opt`
+- `python 3.11`
+- `Git`
 
 You can install them using pip:
 ```bash
@@ -16,9 +18,15 @@ pip install numpy tensorflow gymnasium bayesian-optimization
 ```
 
 ## Running the Project
+### 1.Cloning the repository
+```bash
+git clone https://github.com/jaberassad/Space-Ship.git
+cd Space-Ship
+```
 
-###  Running the Agent
-After training, you can test the agent's performance by running the following command. The trained model will be loaded, and the agent will attempt to land the spaceship in a visual environment.
+
+###  2.Running the Agent
+After cloning, you can test the agent's performance by running the following command. The trained model will be loaded, and the agent will attempt to land the spaceship in a visual environment.
 
 ```bash
 python test_agent.py
