@@ -14,7 +14,7 @@ Make sure you have the following dependencies installed before running the proje
 
 You can install them using pip:
 ```bash
-pip install numpy tensorflow gymnasium bayesian-optimization
+pip3 install numpy tensorflow gymnasium bayesian-optimization
 ```
 
 ## Running the Project
