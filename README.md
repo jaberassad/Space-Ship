@@ -31,6 +31,7 @@ After cloning, you can test the agent's performance by running the following com
 ```bash
 python3 run_agent.py
 ```
+<font color="red">The window may take a minute or two to appear. Please wait patiently.</font>
 ![](Agent.png)
 
 ## Training Approach
