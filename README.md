@@ -29,8 +29,9 @@ cd Space-Ship
 After cloning, you can test the agent's performance by running the following command. The trained model will be loaded, and the agent will attempt to land the spaceship in a visual environment.
 
 ```bash
-python test_agent.py
+python3 run_agent.py
 ```
+![](Agent.png)
 
 ## Training Approach
 The project uses **Deep Q-Learning** to solve the lunar landing task. Here’s a brief summary of the approach:
